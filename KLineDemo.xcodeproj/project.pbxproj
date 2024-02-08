@@ -16,6 +16,13 @@
 		2A48154C2B74F863005B8FE0 /* KLineDemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A48154B2B74F863005B8FE0 /* KLineDemoTests.swift */; };
 		2A4815562B74F863005B8FE0 /* KLineDemoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A4815552B74F863005B8FE0 /* KLineDemoUITests.swift */; };
 		2A4815582B74F863005B8FE0 /* KLineDemoUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A4815572B74F863005B8FE0 /* KLineDemoUITestsLaunchTests.swift */; };
+		2A4815702B7506B7005B8FE0 /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A48156E2B7506B7005B8FE0 /* Model.swift */; };
+		2A4815712B7506B7005B8FE0 /* Websocket.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A48156F2B7506B7005B8FE0 /* Websocket.swift */; };
+		2A4815742B7506C3005B8FE0 /* Models.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A4815722B7506C3005B8FE0 /* Models.swift */; };
+		2A4815772B750776005B8FE0 /* UIColor+Exentension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A4815762B750776005B8FE0 /* UIColor+Exentension.swift */; };
+		C6F279E127248E86974D2ABD /* Pods_KLineDemo_KLineDemoUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8F99E1876CA765D00B00EEAF /* Pods_KLineDemo_KLineDemoUITests.framework */; };
+		CAE941467EDE89FB36DF05FE /* Pods_KLineDemoTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0784831DDE23AD3D53855DEF /* Pods_KLineDemoTests.framework */; };
+		CEDAD7D132F7953542CFF47A /* Pods_KLineDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F9AAED3E0ABBD5731E32C1E8 /* Pods_KLineDemo.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +43,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		06F5DA6A1A03D1D1FEA6D519 /* Pods-KLineDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KLineDemo.debug.xcconfig"; path = "Target Support Files/Pods-KLineDemo/Pods-KLineDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		0784831DDE23AD3D53855DEF /* Pods_KLineDemoTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KLineDemoTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		2A4815312B74F861005B8FE0 /* KLineDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KLineDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2A4815342B74F861005B8FE0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2A4815362B74F861005B8FE0 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -49,6 +58,17 @@
 		2A4815512B74F863005B8FE0 /* KLineDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KLineDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2A4815552B74F863005B8FE0 /* KLineDemoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KLineDemoUITests.swift; sourceTree = "<group>"; };
 		2A4815572B74F863005B8FE0 /* KLineDemoUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KLineDemoUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		2A48156E2B7506B7005B8FE0 /* Model.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
+		2A48156F2B7506B7005B8FE0 /* Websocket.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Websocket.swift; sourceTree = "<group>"; };
+		2A4815722B7506C3005B8FE0 /* Models.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Models.swift; sourceTree = "<group>"; };
+		2A4815762B750776005B8FE0 /* UIColor+Exentension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "UIColor+Exentension.swift"; path = "Assets.xcassets/UIColor+Exentension.swift"; sourceTree = "<group>"; };
+		3EB3E7A66B52F79EB4B59766 /* Pods-KLineDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KLineDemo.release.xcconfig"; path = "Target Support Files/Pods-KLineDemo/Pods-KLineDemo.release.xcconfig"; sourceTree = "<group>"; };
+		8F99E1876CA765D00B00EEAF /* Pods_KLineDemo_KLineDemoUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KLineDemo_KLineDemoUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D026FBF60896A7995A732BA5 /* Pods-KLineDemoTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KLineDemoTests.release.xcconfig"; path = "Target Support Files/Pods-KLineDemoTests/Pods-KLineDemoTests.release.xcconfig"; sourceTree = "<group>"; };
+		D55E42D14B50B889C4051690 /* Pods-KLineDemo-KLineDemoUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KLineDemo-KLineDemoUITests.release.xcconfig"; path = "Target Support Files/Pods-KLineDemo-KLineDemoUITests/Pods-KLineDemo-KLineDemoUITests.release.xcconfig"; sourceTree = "<group>"; };
+		E827E1AD55001CE9CFA596FB /* Pods-KLineDemoTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KLineDemoTests.debug.xcconfig"; path = "Target Support Files/Pods-KLineDemoTests/Pods-KLineDemoTests.debug.xcconfig"; sourceTree = "<group>"; };
+		EC62D703FAFBEECE83F30D60 /* Pods-KLineDemo-KLineDemoUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KLineDemo-KLineDemoUITests.debug.xcconfig"; path = "Target Support Files/Pods-KLineDemo-KLineDemoUITests/Pods-KLineDemo-KLineDemoUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		F9AAED3E0ABBD5731E32C1E8 /* Pods_KLineDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KLineDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +76,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CEDAD7D132F7953542CFF47A /* Pods_KLineDemo.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +84,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CAE941467EDE89FB36DF05FE /* Pods_KLineDemoTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,6 +92,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C6F279E127248E86974D2ABD /* Pods_KLineDemo_KLineDemoUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -83,6 +106,8 @@
 				2A48154A2B74F863005B8FE0 /* KLineDemoTests */,
 				2A4815542B74F863005B8FE0 /* KLineDemoUITests */,
 				2A4815322B74F861005B8FE0 /* Products */,
+				BDF8D7C3214F44F43D45E84F /* Pods */,
+				93B519BCA30DA5F4BA9AECE8 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -102,6 +127,9 @@
 				2A4815342B74F861005B8FE0 /* AppDelegate.swift */,
 				2A4815362B74F861005B8FE0 /* SceneDelegate.swift */,
 				2A4815382B74F861005B8FE0 /* ViewController.swift */,
+				2A4815722B7506C3005B8FE0 /* Models.swift */,
+				2A4815762B750776005B8FE0 /* UIColor+Exentension.swift */,
+				2A48156D2B7506B7005B8FE0 /* Websocket */,
 				2A48153A2B74F861005B8FE0 /* Main.storyboard */,
 				2A48153D2B74F863005B8FE0 /* Assets.xcassets */,
 				2A48153F2B74F863005B8FE0 /* LaunchScreen.storyboard */,
@@ -127,6 +155,38 @@
 			path = KLineDemoUITests;
 			sourceTree = "<group>";
 		};
+		2A48156D2B7506B7005B8FE0 /* Websocket */ = {
+			isa = PBXGroup;
+			children = (
+				2A48156E2B7506B7005B8FE0 /* Model.swift */,
+				2A48156F2B7506B7005B8FE0 /* Websocket.swift */,
+			);
+			path = Websocket;
+			sourceTree = "<group>";
+		};
+		93B519BCA30DA5F4BA9AECE8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F9AAED3E0ABBD5731E32C1E8 /* Pods_KLineDemo.framework */,
+				8F99E1876CA765D00B00EEAF /* Pods_KLineDemo_KLineDemoUITests.framework */,
+				0784831DDE23AD3D53855DEF /* Pods_KLineDemoTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BDF8D7C3214F44F43D45E84F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				06F5DA6A1A03D1D1FEA6D519 /* Pods-KLineDemo.debug.xcconfig */,
+				3EB3E7A66B52F79EB4B59766 /* Pods-KLineDemo.release.xcconfig */,
+				EC62D703FAFBEECE83F30D60 /* Pods-KLineDemo-KLineDemoUITests.debug.xcconfig */,
+				D55E42D14B50B889C4051690 /* Pods-KLineDemo-KLineDemoUITests.release.xcconfig */,
+				E827E1AD55001CE9CFA596FB /* Pods-KLineDemoTests.debug.xcconfig */,
+				D026FBF60896A7995A732BA5 /* Pods-KLineDemoTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -134,9 +194,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 2A48155B2B74F863005B8FE0 /* Build configuration list for PBXNativeTarget "KLineDemo" */;
 			buildPhases = (
+				B70785F5B0E6DC620CEA8B55 /* [CP] Check Pods Manifest.lock */,
 				2A48152D2B74F861005B8FE0 /* Sources */,
 				2A48152E2B74F861005B8FE0 /* Frameworks */,
 				2A48152F2B74F861005B8FE0 /* Resources */,
+				327E268161347567CF1D016A /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -151,6 +213,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 2A48155E2B74F863005B8FE0 /* Build configuration list for PBXNativeTarget "KLineDemoTests" */;
 			buildPhases = (
+				FAB83439E343DC9C002869C3 /* [CP] Check Pods Manifest.lock */,
 				2A4815432B74F863005B8FE0 /* Sources */,
 				2A4815442B74F863005B8FE0 /* Frameworks */,
 				2A4815452B74F863005B8FE0 /* Resources */,
@@ -169,9 +232,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 2A4815612B74F863005B8FE0 /* Build configuration list for PBXNativeTarget "KLineDemoUITests" */;
 			buildPhases = (
+				F0DBA2626B2DC80EFD28BCA2 /* [CP] Check Pods Manifest.lock */,
 				2A48154D2B74F863005B8FE0 /* Sources */,
 				2A48154E2B74F863005B8FE0 /* Frameworks */,
 				2A48154F2B74F863005B8FE0 /* Resources */,
+				EB65ED396C9021F2B383E7A2 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -253,14 +318,121 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		327E268161347567CF1D016A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-KLineDemo/Pods-KLineDemo-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-KLineDemo/Pods-KLineDemo-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-KLineDemo/Pods-KLineDemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B70785F5B0E6DC620CEA8B55 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-KLineDemo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EB65ED396C9021F2B383E7A2 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-KLineDemo-KLineDemoUITests/Pods-KLineDemo-KLineDemoUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-KLineDemo-KLineDemoUITests/Pods-KLineDemo-KLineDemoUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-KLineDemo-KLineDemoUITests/Pods-KLineDemo-KLineDemoUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F0DBA2626B2DC80EFD28BCA2 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-KLineDemo-KLineDemoUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FAB83439E343DC9C002869C3 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-KLineDemoTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		2A48152D2B74F861005B8FE0 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2A4815772B750776005B8FE0 /* UIColor+Exentension.swift in Sources */,
 				2A4815392B74F861005B8FE0 /* ViewController.swift in Sources */,
 				2A4815352B74F861005B8FE0 /* AppDelegate.swift in Sources */,
+				2A4815712B7506B7005B8FE0 /* Websocket.swift in Sources */,
+				2A4815742B7506C3005B8FE0 /* Models.swift in Sources */,
 				2A4815372B74F861005B8FE0 /* SceneDelegate.swift in Sources */,
+				2A4815702B7506B7005B8FE0 /* Model.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -353,7 +525,7 @@
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
-				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GCC_C_LANGUAGE_STANDARD = gnu17;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
@@ -368,7 +540,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
@@ -416,7 +588,7 @@
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GCC_C_LANGUAGE_STANDARD = gnu17;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
@@ -425,7 +597,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
@@ -437,6 +609,7 @@
 		};
 		2A48155C2B74F863005B8FE0 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 06F5DA6A1A03D1D1FEA6D519 /* Pods-KLineDemo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -450,6 +623,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -465,6 +639,7 @@
 		};
 		2A48155D2B74F863005B8FE0 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3EB3E7A66B52F79EB4B59766 /* Pods-KLineDemo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -478,6 +653,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -493,6 +669,7 @@
 		};
 		2A48155F2B74F863005B8FE0 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E827E1AD55001CE9CFA596FB /* Pods-KLineDemoTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -513,6 +690,7 @@
 		};
 		2A4815602B74F863005B8FE0 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D026FBF60896A7995A732BA5 /* Pods-KLineDemoTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -533,6 +711,7 @@
 		};
 		2A4815622B74F863005B8FE0 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = EC62D703FAFBEECE83F30D60 /* Pods-KLineDemo-KLineDemoUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -551,6 +730,7 @@
 		};
 		2A4815632B74F863005B8FE0 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D55E42D14B50B889C4051690 /* Pods-KLineDemo-KLineDemoUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
